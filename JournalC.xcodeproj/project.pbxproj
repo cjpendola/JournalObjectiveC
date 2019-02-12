@@ -8,24 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		340E501E2212163600C06B88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E501D2212163600C06B88 /* AppDelegate.m */; };
-		340E50212212163600C06B88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E50202212163600C06B88 /* ViewController.m */; };
 		340E50242212163600C06B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340E50222212163600C06B88 /* Main.storyboard */; };
 		340E50262212163700C06B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340E50252212163700C06B88 /* Assets.xcassets */; };
 		340E50292212163700C06B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340E50272212163700C06B88 /* LaunchScreen.storyboard */; };
 		340E502C2212163700C06B88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E502B2212163700C06B88 /* main.m */; };
+		340E50342212164800C06B88 /* DVMEntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E50332212164800C06B88 /* DVMEntryController.m */; };
+		340E50372212167100C06B88 /* DVMEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E50362212167100C06B88 /* DVMEntry.m */; };
+		340E503A221216D000C06B88 /* EntriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E5039221216D000C06B88 /* EntriesTableViewController.m */; };
+		340E504122121F0D00C06B88 /* EntryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E504022121F0D00C06B88 /* EntryDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		340E50192212163600C06B88 /* JournalC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		340E501C2212163600C06B88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		340E501D2212163600C06B88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		340E501F2212163600C06B88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		340E50202212163600C06B88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		340E50232212163600C06B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		340E50252212163700C06B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		340E50282212163700C06B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		340E502A2212163700C06B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		340E502B2212163700C06B88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		340E50322212164800C06B88 /* DVMEntryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMEntryController.h; sourceTree = "<group>"; };
+		340E50332212164800C06B88 /* DVMEntryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMEntryController.m; sourceTree = "<group>"; };
+		340E50352212167100C06B88 /* DVMEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMEntry.h; sourceTree = "<group>"; };
+		340E50362212167100C06B88 /* DVMEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMEntry.m; sourceTree = "<group>"; };
+		340E5038221216D000C06B88 /* EntriesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntriesTableViewController.h; sourceTree = "<group>"; };
+		340E5039221216D000C06B88 /* EntriesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntriesTableViewController.m; sourceTree = "<group>"; };
+		340E503F22121F0D00C06B88 /* EntryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryDetailViewController.h; sourceTree = "<group>"; };
+		340E504022121F0D00C06B88 /* EntryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +67,71 @@
 		340E501B2212163600C06B88 /* JournalC */ = {
 			isa = PBXGroup;
 			children = (
-				340E501C2212163600C06B88 /* AppDelegate.h */,
-				340E501D2212163600C06B88 /* AppDelegate.m */,
-				340E501F2212163600C06B88 /* ViewController.h */,
-				340E50202212163600C06B88 /* ViewController.m */,
-				340E50222212163600C06B88 /* Main.storyboard */,
-				340E50252212163700C06B88 /* Assets.xcassets */,
-				340E50272212163700C06B88 /* LaunchScreen.storyboard */,
-				340E502A2212163700C06B88 /* Info.plist */,
+				340E503D22121EB800C06B88 /* ViewControllers */,
+				340E503C22121E0C00C06B88 /* ModelController */,
+				340E503B22121DFE00C06B88 /* Model */,
+				340E50422212206400C06B88 /* Resources */,
 				340E502B2212163700C06B88 /* main.m */,
 			);
 			path = JournalC;
+			sourceTree = "<group>";
+		};
+		340E503B22121DFE00C06B88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				340E50352212167100C06B88 /* DVMEntry.h */,
+				340E50362212167100C06B88 /* DVMEntry.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		340E503C22121E0C00C06B88 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				340E50322212164800C06B88 /* DVMEntryController.h */,
+				340E50332212164800C06B88 /* DVMEntryController.m */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		340E503D22121EB800C06B88 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				340E5038221216D000C06B88 /* EntriesTableViewController.h */,
+				340E5039221216D000C06B88 /* EntriesTableViewController.m */,
+				340E503F22121F0D00C06B88 /* EntryDetailViewController.h */,
+				340E504022121F0D00C06B88 /* EntryDetailViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		340E50422212206400C06B88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				340E50442212207800C06B88 /* SourceCode */,
+				340E50432212206F00C06B88 /* StoryBoards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		340E50432212206F00C06B88 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				340E50222212163600C06B88 /* Main.storyboard */,
+				340E50272212163700C06B88 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		340E50442212207800C06B88 /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				340E501C2212163600C06B88 /* AppDelegate.h */,
+				340E501D2212163600C06B88 /* AppDelegate.m */,
+				340E50252212163700C06B88 /* Assets.xcassets */,
+				340E502A2212163700C06B88 /* Info.plist */,
+			);
+			path = SourceCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +204,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				340E50212212163600C06B88 /* ViewController.m in Sources */,
+				340E50372212167100C06B88 /* DVMEntry.m in Sources */,
 				340E502C2212163700C06B88 /* main.m in Sources */,
+				340E50342212164800C06B88 /* DVMEntryController.m in Sources */,
+				340E503A221216D000C06B88 /* EntriesTableViewController.m in Sources */,
+				340E504122121F0D00C06B88 /* EntryDetailViewController.m in Sources */,
 				340E501E2212163600C06B88 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CC2FU4U4ZR;
-				INFOPLIST_FILE = JournalC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JournalC/Resources/SourceCode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +370,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CC2FU4U4ZR;
-				INFOPLIST_FILE = JournalC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JournalC/Resources/SourceCode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
